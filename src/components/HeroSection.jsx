@@ -25,13 +25,13 @@ const HeroSection = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full border-2 border-[#c89d5b] flex items-center justify-center">
-              <div className="w-6 h-6 bg-[#c89d5b] rounded-full"></div>
-            </div>
-            <span className="text-2xl md:text-3xl font-bold text-[#c89d5b] font-serif tracking-wide">
-              IMPETUS: IBC ADVISORS
-            </span>
+          <div className="flex items-center gap-3">
+            <img
+              src="/hero-Section/logo[1].png"
+              alt="Impetus IBC Advisors logo"
+              className="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(0,0,0,0.45)]"
+              loading="lazy"
+            />
           </div>
 
           {/* Navigation Menu */}
@@ -68,7 +68,7 @@ const HeroSection = () => {
         />
 
         {/* Dark Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-[#1b1512]/90 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-[#1b1512]/90 to-black/20" />
 
         {/* Hero Content */}
         <div className="relative z-10 h-full flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 md:px-12 pt-20 md:pt-0">
